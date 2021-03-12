@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PvZ2_products_tool" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="PvZ2_products_tool" prefix_auto="1" extension_auto="1" />
+				<Option object_output="D:/Bo/Code/C++/PvZ2_products_tool/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-static -static-libgcc" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="PlantLevels.cpp" />
+		<Unit filename="const.h" />
+		<Unit filename="fifo_map.hpp" />
+		<Unit filename="json.hpp" />
+		<Unit filename="lod_rewards.cpp" />
+		<Unit filename="magento_filter.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="market_schedule.cpp" />
+		<Unit filename="products.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
