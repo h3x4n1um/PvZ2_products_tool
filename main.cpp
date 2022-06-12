@@ -29,8 +29,8 @@ void edit_magento_filter();
 void edit_products();
 void edit_market_schedule();
 
-std::string path = R"(C:\Users\boly4\Desktop\PvZ 2\rton2json)";
-std::vector <std::string> plant_lists;
+std::string path = R"(D:\Code\C++\PvZ2_products_tool\Test\CDN 9.7\rton2json)";
+std::vector <std::string> plants_list;
 int MAX_COSTUME = 0;
 
 int main(){

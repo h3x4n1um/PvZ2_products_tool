@@ -27,7 +27,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="PlantLevels.cpp" />
-		<Unit filename="const.h" />
+		<Unit filename="const.hpp" />
 		<Unit filename="fifo_map.hpp" />
 		<Unit filename="json.hpp" />
 		<Unit filename="lod_rewards.cpp" />

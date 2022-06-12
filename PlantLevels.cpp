@@ -6,7 +6,7 @@ void open_error();
 
 void read_PlantLevels(){
     extern std::string path;
-    extern std::vector <std::string> plant_lists;
+    extern std::vector <std::string> plants_list;
     std::ifstream input;
     json js;
 
@@ -16,5 +16,6 @@ void read_PlantLevels(){
     input >> js;
     input.close();
 
-    for (json::iterator it = js.at("objects").begin(); it < js["objects"].end(); ++it) plant_lists.push_back(it->at("aliases")[0].get<std::string>());
+    for (json::iterator it = js.at("objects").begin(); it < js["objects"].end(); ++it)
+        plants_list.push_back(it->at("aliases")[0].get<std::string>());
 }
